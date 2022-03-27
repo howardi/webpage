@@ -1,0 +1,102 @@
+
+* {
+  box-sizing: border-box; 
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(236, 236, 245);
+    min-height: 100vh;
+    flex-direction: row;
+    margin: 90px;
+    padding: 5px;
+  }
+  .outer-col-1 {
+    background: #fff;
+    flex: 1.5;
+    height: 15vh;
+    border-radius: 7px;
+    margin-top: 30px;
+
+  }
+ button{
+   justify-content: center;
+   border-radius: 5px;
+   margin: 0 10px;
+   cursor: pointer;
+  }
+  .outer-col-1 ul{
+    list-style: none;
+  }
+  .outer-col-1 ul li{
+    background: url(https://www.computerhope.com/issues/pictures/bullet.gif) no-repeat top left;
+    background-position: 0 2px;
+    line-height: 1.09;
+    padding: 0 0 5px 40px; 
+  }
+  .outer-col-3 {
+    background: #9e11f0;
+    flex: 1.5;
+    height: 15vh;
+    border-radius: 7px;
+    margin-top: 30px;
+
+  }
+.outer-col-3, h1{
+  color: #fff;
+  display: flex
+  text-align: center;
+}
+  .outer-col-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+  }
+  .inner-row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 600px;
+  }
+  .inner-col {
+      background-color: whitesmoke;
+      border: 1px solid black;
+      margin-top: 20px;
+      margin-left: 15px;
+      border-radius: 5px;
+  }
+  .inner-row article {
+    min-height: 15vh;
+    justify-content: center;
+  }
+  header{
+   color: #fff;
+    height: 5vh;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+  }
+  header a{
+    text-decoration: none;
+    color: #fff;
+  }
+  header button{
+    color: purple;
+    border-radius: 5px;
+    height: 4vh;
+    
+  }
+  header, article{
+    padding: 0.5em; 
+  }
+  .nav{
+      width: 240px;
+  }
+  header{
+    background: rgb(68, 70, 64);
+    height: 7vh;
+    width: 590px;
+    border-radius: 5px;
+    margin-top: 30px;
+  }
